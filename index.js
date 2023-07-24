@@ -15,7 +15,7 @@ app.use(cors({
   origin: true,
   credentials: true
 }));
-
+app.options('*', cors())
 app.get('/images', async (req, res) => {
   try {
     const image = req.query.image;

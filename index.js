@@ -12,7 +12,7 @@ const cookieParser = require("cookie-parser");
 dotenv.config();
 
 app.use(cors({
-  origin: 'http://localhost:3001', // replace with the origin of your frontend app
+  origin: 'https://64be2414a116002e57680744--glittery-crepe-e8606e.netlify.app/', // replace with the origin of your frontend app
   credentials: true
 }));
 

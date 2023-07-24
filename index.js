@@ -34,7 +34,7 @@ const database = (module.exports = () => {
     };
     try {
       mongoose.connect(
-        process.env.MONGO_URL,
+        "mongodb+srv://nik:jlMX5lI9oIcZk2jY@cluster0.wo3jiqh.mongodb.net/social-app?retryWrites=true&w=majority",
         connectionParams
       );
       console.log("Database connected succesfully");
